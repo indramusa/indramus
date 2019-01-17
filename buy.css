@@ -1,0 +1,97 @@
+body {
+    background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+     max-width:100%;
+    overflow-x:hidden;
+}
+.navbar-brand{
+	font-family: "Stencil";
+}
+.row{
+	font-family: "Stencil";
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999;
+}
+h1{
+	text-shadow: 2px 2px red;
+	text-decoration: overline;
+	text-align: center;
+}
+h2{
+	font-family: "Cooper Black";
+	text-shadow: 2px 2px red;
+	color: black;
+	text-align: center;
+}
+.profil{
+    background-color: white;
+    width: auto;
+    border: 25px solid black;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity :0.8;
+    font-family: "Berlin Sans FB Demi";
+    color: black;
+
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+.context-dark{
+    color: rgba(255, 255, 255, 0.8);
+    background-image: url("footer.jpg");
+}
+
+.footer-classic a{
+    color: #ffffff;
+
+}
+.logo{
+	margin: 25px 50px 50px 25px;
+}
+.contact-list{
+	font-family: "calibri";
+}
+input[type="text"]
+{
+    min-width: 10px;
+    max-width: 500px;
+    width :100%;
+    height : 100%;
+}
+input[type="email"]
+{
+    min-width: 200px;
+    max-width: 500px;
+    width :100%;
+    height : 100%;
+}
+input[type="password"]
+{
+    min-width: 200px;
+    max-width: 500px;
+    width :100%;
+    height : 100%;
+}
+input[type="submit"]
+{
+    min-width: 200px;
+    max-width: 500px;
+    width :100%;
+    height : 100%;
+}
+textarea [class="form-control"]
+{
+    min-width: 200px;
+    max-width: 500px;
+    width :100%;
+    height : 100%;
+}

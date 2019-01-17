@@ -1,0 +1,30 @@
+h2{
+	 text-align:center; 
+	 color:blue;
+	 border: 5px blue;
+	  margin-top: 0.1%;
+       margin-bottom: 100px;
+       margin-right: 600px;
+       margin-left: 600px;
+	  width:450px;
+	  border-style: outset;
+	border-style: solid;
+    border-color:lightgreen;
+	   background-color:red;
+}
+body{
+	    background-image: url("b4.jpg");
+}
+div{
+			background: #2ea3f2;
+			text-align: center;
+			border: 1px solid #fff;
+			padding: 10px;
+			color: #fff;
+		}
+.konten{
+			height: 300px;
+		}
+.sidebar{
+	     	height: 300px;
+		}

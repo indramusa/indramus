@@ -1,0 +1,28 @@
+body {
+    background-image: url("b4.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+}
+marquee{
+	font-family: "Stencil";
+	font-size:30px;
+	text-shadow: 2px 2px red;
+	color: black;
+	border-style: outset;
+	border-style: solid;
+    border-color: blue;
+	background-color: greenyellow;
+}
+div{
+    background-color: lightgrey;
+    border: 25px solid green;
+    padding: 50px;
+    margin: 25px;
+	 margin-top: 85px;
+       margin-bottom: 50px;
+       margin-right: 200px;
+       margin-left: 200px;
+	   font-size:200%;
+}
+

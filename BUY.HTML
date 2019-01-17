@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BELI  ||  ANIMEDISTRO</title>
+  <link href="logo.jpg" rel="shortcut icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="buy.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="50">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="profil.html">X-AUTO.COM</a>
+    </div>
+  <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+	      <li><a href="Sp1.html">About us</a></li>
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle= "dropdown" >Kategori Produk
+                <span class="caret"></span></a>
+             
+			 <ul class="dropdown-menu">
+              <li><a href="#">Terlaris</a></li>
+              <li><a href="#">Termahal</a></li>
+              <li><a href="#">Termurah</a></li>
+             </ul>
+          </li>
+              
+	      <li><a href="Info.html">Info Kontak</a></li>
+          
+		  <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle= "dropdown" >Jenis Produk
+            <span class="caret"></span></a>
+               <ul class="dropdown-menu">
+                 <li><a href="Rajanya.html">Knalpot</a></li>
+                 <li><a href="#">Footsep</a></li>
+                 <li><a href="#">Handgrip</a></li>
+                 <li><a href="#">Lampu</a></li>
+                 <li><a href="#">Helm</a></li>
+               </ul>
+          </li>
+     	</ul>
+		<form class="navbar-form navbar-right" action="/action_page.php">
+      
+	       <div class="form-group">
+             <input type="text" class="form-control" placeholder="Search">
+           </div>
+      
+	         <button type="submit" class="btn btn-default">Submit</button>
+	     </form>
+</nav>
+<div class="row">
+  <div class="col-md-12">
+    <div class="profil">
+      <h1>FORM PEMBELIAN</h1> 
+      <h3>!!! PERHATIAN !!!</h3>
+      <h4>Isi form di bawah dengan data yang benar. Kesalahan yang di akibatkan karena kesalahan pengisian data bukan tanggung jawab kami.</h4>
+      <h4>Total pembayaran dan data belanja akan dikirimkan ke e-mail untuk dikonfirmasi</h4>
+    <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="name">Nama Pembeli</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="form-group">
+        <label for="tlp">No Telepon/ Handphone</label>
+        <input type="text" class="form-control" id="tlp">
+      </div>
+      <div class="form-group">
+        <label for="comment">Alamat Lengkap</label>
+        <textarea class="form-control" rows="3" id="comment" style="width:500px;resize: none;"></textarea>
+      </div>
+      <button type="button" class="btn btn-warning btn-lg" style = "float:right" data-toggle="modal" data-target="#myModal">BUY</button>
+      <a href="Sparepart.html"<button type="button" class="btn btn-danger btn-lg" style = "float:left;">BACK</button></a>
+    </div>
+    <div class="col-md-6">
+      <label for="jasa">Pilih Jasa Kurir</label>
+      <ul class="nav nav-tabs" style="width: 250px">
+        <li><a data-toggle="tab" href="#menu1">JNE</a></li>
+        <li><a data-toggle="tab" href="#menu2">TIKI</a></li>
+        <li><a data-toggle="tab" href="#menu3">J&T</a></li>
+      </ul>
+
+    <div class="tab-content">
+      <div id="menu1" class="tab-pane fade">
+        <h3>JNE</h3>
+          <div class="radio">
+            <label><input type="radio" name="optradio">JNE REG (1-2 HARI KERJA)</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">JNE YES (1 HARI KERJA)</label>
+          </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h3>TIKI</h3>
+          <div class="radio">
+            <label><input type="radio" name="optradio">TIKI REGULER (7 HARI KERJA)</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">TIKI TDS (2 HARI KERJA)</label>
+          </div>
+      </div>
+      <div id="menu3" class="tab-pane fade">
+        <h3>J&T</h3>
+          <div class="radio">
+            <label><input type="radio" name="optradio">J&T EZ (4-7 HARI KERJA)</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">J&T (7 HARI KERJA)</label>
+          </div>
+      </div>
+    </div>
+    <div class="form-group">
+        <label for="JML">JUMLAH PEMBELIAN</label>
+         <input type="text" class="form-control" id="JML" style="width:50px">
+    </div>
+    
+    <div class="form-group">
+        <label for="comment">Keterangan Tambahan</label>
+        <textarea class="form-control" rows="3" id="comment" style="width:500px;resize: none;"></textarea>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+  </div>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="text-align: center;">ATTENTION!!!</h4>
+      </div>
+      <div class="alert alert-success">
+        <center><strong>~TERIMA KASIH~</strong> SEGERA BAYAR DI TEMPAT YANG TELAH DITUNJUK,LALU KIRIM BUKTI TRANSAKSI ANDA KE KONTAK KAMI</center>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+    </div>
+    </div>
+</body>
+</html>

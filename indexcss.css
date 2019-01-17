@@ -1,0 +1,51 @@
+body {
+    background-image: url("b1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+}
+.jumbotron{
+	background-image: url("b1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+	font-family: "Stencil";
+	text-decoration: underline;
+}
+h1{
+	text-shadow: 2px 2px red;
+	text-decoration: overline;
+}
+h2{
+	font-family: "Cooper Black";
+	text-shadow: 2px 2px red;
+	color: white;
+	border-style: outset;
+	border-style: solid;
+    border-color: red;
+	background-color: black;
+}
+.navbar-brand{
+	font-family: "Stencil";
+}
+.row{
+	font-family: "Stencil";
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999;
+}
+.context-dark{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a{
+    color: #ffffff;
+}
+.logo{
+	margin: 25px 50px 50px 25px;
+}
+.contact-list{
+	font-family: "calibri";
+}

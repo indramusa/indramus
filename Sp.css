@@ -1,0 +1,43 @@
+
+body {
+    background-image: url("b4.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-attachment: fixed;
+}
+.navbar-brand{
+	font-family: "Stencil";
+}
+.row{
+	font-family: "Stencil";
+}
+
+.context-dark{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a{
+    color: #ffffff;
+}
+.logo{
+	margin: 25px 50px 50px 25px;
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999;
+}
+.contact-list{
+	font-family: "calibri";
+}
+h2{
+	font-family: "Cooper Black";
+	text-shadow: 3px 3px red;
+	color: white;
+	border-style: outset;
+	border-style: solid;
+    border-color: blue;
+	background-color: green;
+}
+   
+
